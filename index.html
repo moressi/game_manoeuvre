@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>躲避方块游戏</title>
+    <style>
+        /* Center the game area */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: #f0f8ff;
+        }
+
+        /* 这里写游戏样式 */
+        #gameArea {
+            width: 600px;
+            height: 400px;
+            background: #e0f0e9;
+            position: relative;
+            border: 3px solid #392f41;
+        }
+        
+        #player {
+            width: 30px;
+            height: 30px;
+            background: #f03752 ;
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+        }
+        
+        .obstacle {
+            width: 30px;
+            height: 30px;
+            background: #00828b;
+            position: absolute;
+            top: -30px;
+        }
+        /* Style the Start Game button */
+        #startButton {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color: #3de1ab;
+            color: #fffbf0;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #startButton:hover {
+            background-color: #46c0a3;
+        }
+    </style>
+</head>
+<body>
+    <div id="gameArea">
+        <div id="player"></div>
+        <button id="startButton">Start Game</button>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
