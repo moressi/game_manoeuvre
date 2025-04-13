@@ -1,6 +1,6 @@
 # game_manoeuvre ~ Avoid the Falling Obstacles
 
-A simple browser-based game where the player must avoid falling obstacles. The game ends when an obstacle collides with the player. The player's score increases as obstacles are successfully avoided.
+A simple browser-based game where the player must avoid falling obstacles. The game ends when an obstacle collides with the player. The player's score increases as obstacles are successfully avoided. Click to play: https://moressi.github.io/game_manoeuvre/
 
 ---
 
